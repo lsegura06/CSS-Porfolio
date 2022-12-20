@@ -1,54 +1,179 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  header {
-    background-color: #333;
-    color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  header h1 {
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header nav {
-    float: right;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  header nav li {
-    display: inline-block;
-    margin-left: 20px;
-  }
-  
-  header nav a {
-    color: white;
+body{
+    background-color: rgb(196, 196, 218);
+    margin: 0px;
+    padding: 0px;
+}
+
+.top ul{
+    list-style: none;
+}
+
+.top a{
     text-decoration: none;
-  }
+}
 
-  div {
+section{
     width: 100%;
-    background-color: rgb(30, 30, 121);
-    color: white;
-  }
-  
-  main {
-    margin-top: 80px;
-    padding: 20px;
-  }
+    height: 70vh;
+}
+
+.top nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0,0,0);
+    padding: 0px 5%;
+}
+
+.top nav ul{
+    display: flex;
+
+}
+
+.top nav ul li a{
+    margin: 30px;
+    color: #505050;
+    font-size: 15px;
+    font-weight:700;
+}
 
 
-  
-  footer {
-    background-color: #333;
-    color: white;
+.title{
+    color: #505050;
+    font-size: 50px;
+}
+
+.text-cont img{
+    border: #ffffff solid;
+
+}
+.text-cont{
+    padding: 3%;
+}
+
+.text-cont p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #505050;
+    font-size: 25px;
+}
+
+.text-cont p + p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #505050;
+    font-size: 45px;
+}
+
+.about-me{
+    width: 95%;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px rgba(0,0,0);
+    position: relative;
+    margin: -7% auto 20px auto;
+    justify-content: space-evenly;
     text-align: center;
-    padding: 20px;
-  }
+}
+
+.about-txt p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #505050;
+    font-size: 45px;
+}
+
+.about-txt p + p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #505050;
+    font-size: 25px;
+}
+
+
+.work{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+
+.work h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #505050;
+    font-size: 45px;
+}
+
+.work img {
+    display: inline;
+    border: #ffffff solid;
+    box-shadow: 2px 2px 12px rgba(0,0,0);
+}
+
+.work p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #505050;
+    font-size: 20px;
+    
+}
+
+.contact{
+    width: 95%;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px rgba(0,0,0);
+    position: relative;
+    margin:  -3% auto 20px auto;
+}
+
+.contact p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #505050;
+    font-size: 35px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #505050;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.enlarge-on-hover {
+    transform: scale(1); 
+    transition: transform 0.5s ease;  
+}
+
+.enlarge-on-hover:hover,
+.enlarge-on-hover:active {
+    transform: scale(1.1);  
+}
+
+.enlarge-on-click {
+    transform: scale(1);
+    transition: transform 0.5s ease;  
+}
+
+.enlarge-on-click:focus {
+    transform: scale(1.2); 
+}
+
+
+
+

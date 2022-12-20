@@ -13,7 +13,10 @@ I learned how to build a simple responsive porfolio using only html and css.
 N/A
 
 ## Usage
+Is to showcase my work and demostrate my skills to potential clients or employers.
 
+![Image of website](./assets/images/aboutme.png)
+![Image of website](./assets/images/workcontact.png)
 
 ## Credits
 
